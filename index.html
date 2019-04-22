@@ -64,7 +64,7 @@
             </p>
             <p>&nbsp;</p>
             <p>
-              Mots-cl&eacute;s : Agriculture de pr&eacute;cision, fouille de donn&eacute;es, g&eacute;nomique, Intelligence artificielle, apprentissage automatique, sant&eacute;.</p>
+              <strong>Mots-cl&eacute;s </strong> : Agriculture de pr&eacute;cision, fouille de donn&eacute;es, g&eacute;nomique, Intelligence artificielle, apprentissage automatique, sant&eacute;.</p>
             </p>
               <p>&nbsp;</p>
                 <p>&nbsp;</p>
@@ -101,9 +101,19 @@
               <img src="./fig11.jpg" class="figure-img img-fluid rounded" >
 
               <figcaption class="figure-caption">
-                fig 1. Les algorithmes d'apprentissage automatique utilisés dans la littérature médicale. Les données sont générées en recherchant des algorithmes d'apprentissage automatique dans PubMed dans le secteur de la santé.</figcaption>
+                Figure 1. Les algorithmes d'apprentissage automatique utilisés dans la littérature médicale. Les données sont générées en recherchant des algorithmes d'apprentissage automatique dans PubMed dans le secteur de la santé.</figcaption>
             </figure>
 
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+            <p><strong>Secteur de l&rsquo;agronomie</strong></p>
+
+            <p>L'agronomie joue un r&ocirc;le crucial dans l'&eacute;conomie mondiale. Toutefois la pression sur le syst&egrave;me agricole va augmenter avec l'expansion continue de la population humaine. L&rsquo;agriculture de &laquo;&nbsp;pr&eacute;cision&nbsp;&raquo; est d&eacute;sormais apparue comme un nouveau domaine scientifique qui utilise des dimensions importantes de donn&eacute;es. Il est important de trouver des approches pour stimuler la productivit&eacute; agricole tout en minimisant son impact environnemental. Les donn&eacute;es g&eacute;n&eacute;r&eacute;es dans les industries agronomiques modernes sont fournies par une vari&eacute;t&eacute; de capteurs diff&eacute;rents qui permettent une meilleure compr&eacute;hension de l&rsquo;environnement du produit fourni (composition du sol, conditions m&eacute;t&eacute;orologiques, m&eacute;tag&eacute;nomique des sols, g&eacute;nome du b&eacute;tail) en plus des donn&eacute;es capt&eacute;es par les machines utilis&eacute;es. (Finch, Samuel, &amp; Lane, 2014). De plus, l'agriculture de pr&eacute;cision permet &agrave; l'agriculteur de toucher des b&eacute;n&eacute;fices gr&acirc;ce &agrave; une meilleure gestion, une r&eacute;duction des co&ucirc;ts de production et tend vers des traitements chimiques plus appropri&eacute;s afin de minimiser l&rsquo;impact environnemental. Par exemple, selon le type de culture, il est possible d&rsquo;ajuster le niveau de fertiliser afin d&rsquo;en &eacute;viter le gaspillage, augmenter le rendement des cultures en analysant les niveaux d&rsquo;expression g&eacute;niques optimaux, et optimiser les fr&eacute;quences de s&egrave;mes via des algorithmes de machine learning permettant d&rsquo;analyser les donn&eacute;es recueillies dans le pass&eacute; et d&rsquo;en tirer des conclusions &eacute;clair&eacute;es pour le futur.</p>
+
+            <p>La plupart des travaux actuels reposent sur la mod&eacute;lisation ou la simulation pour tenter de pr&eacute;dire quelle sera la r&eacute;action de la culture &agrave; plusieurs facteurs tels que les populations de mauvaises herbes, la pression des maladies, les facteurs m&eacute;t&eacute;orologiques, les conditions du sol, afin de fournir aux agriculteurs un syst&egrave;me de d&eacute;cision le plus pr&eacute;cis possible (Blackmore, 1994).</p>
+            <p>Avec une population qui devrait atteindre plus de 9 &nbsp;milliards d&rsquo;ici 2075 sur les 7 milliards d&rsquo;aujourd&rsquo;hui, avec la perte des terres cultivables et du climat changeant, r&eacute;duisant les capacit&eacute;s de production de nombreux pays tr&egrave;s peupl&eacute;s, avec la diminution des r&eacute;serves d&rsquo;&eacute;nergie fossile et la volont&eacute; de r&eacute;duire l&rsquo;impact environnemental, une forte pression est exerc&eacute;e pour faire un meilleur usage de la capacit&eacute; agricole. L&rsquo;agriculture de pr&eacute;cision jouera un r&ocirc;le important &agrave; ce moment.</p>
           </div>
       </div>
     </div>
@@ -113,19 +123,80 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Contact us</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+          <h2>Demonstration</h2>
+          <p class="lead">
+            <div align="justify">
+
+              <p>Pour cette partie, il est question d&rsquo;&eacute;tablir un mod&egrave;le de pr&eacute;diction avec un arbre de d&eacute;cision sur des donn&eacute;es de cellules canc&eacute;reuses provenant du Package R&nbsp; &laquo;&nbsp;mlbench&nbsp;&raquo;.</p>
+
+              <p><strong>Data sets&nbsp;:</strong>
+              <a href="https://www.rdocumentation.org/packages/mlbench/versions/2.1-1/topics/BreastCancer">Donn&eacute;s de cellules de sein cancéreuse et saine parvenu du Dr. WIlliam H. Wolberg (physician); University of Wisconsin Hospital ;Madison; Wisconsin; USA.</a></p>
+
+
+              <figure class="text-center">
+                <img src="./fig1.png" class="figure-img img-fluid rounded" >
+
+                <figcaption class="figure-caption">
+                  Figure 2. Matrice de données du dataset Breastcancer fourni par l'hôpital universitaire du Wisconsin.</figcaption>
+              </figure>
+                <p>&nbsp;</p>
+                Chaque variable, à l'exception de la première, a été convertie en 11 attributs numériques primitifs dont les valeurs vont de 0 à 10.
+                <p>&nbsp;</p>
+              <figure class="text-center">
+                <img src="./fig2.png" class="figure-img img-fluid rounded" >
+
+                <figcaption class="figure-caption">
+                  Figure 3. Code R pour aboutir à l'arbre de décision</figcaption>
+              </figure>
+              <p>&nbsp;</p>
+              <figure class="text-center">
+                <img src="./fig3.png" class="figure-img img-fluid rounded" >
+
+                <figcaption class="figure-caption">
+                  Figure 4. Arbre de décision obtenus</figcaption>
+              </figure>
+              <p>&nbsp;</p>
+              <figure class="text-center">
+                <img src="./fig4.png" class="figure-img img-fluid rounded" >
+
+                <figcaption class="figure-caption">
+                    Figure 5. Matrice de confusion de l'arbre de décision</figcaption>
+              </figure>
+On remarque ici la précision allant à 0.93 ce qui atteste d’un bon modèle de prédiction.
+
+    </div>
         </div>
-      </div>
     </div>
   </section>
-
   <section id="Conclusion">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Contact us</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+          <h2>Conclusion</h2>
+          <p class="lead">
+            <div align="justify">
+
+              <p>Avec le d&eacute;luge actuel de donn&eacute;es, les m&eacute;thodes de calcul sont devenues indispensables aux enqu&ecirc;tes biologiques. D&eacute;velopp&eacute;e &agrave; l'origine pour l'analyse de s&eacute;quences biologiques, la bio-informatique englobe d&eacute;sormais un large &eacute;ventail de domaines, notamment la biologie structurale, la g&eacute;nomique et les &eacute;tudes d'expression g&eacute;nique. L'apprentissage automatique est une branche de l'intelligence artificielle qui utilise diverses techniques statistiques, probabilistes et d'optimisation permettant aux ordinateurs de &laquo;tirer des enseignements&raquo; des exemples pass&eacute;s et de d&eacute;tecter les tendances difficiles &agrave; discerner dans des ensembles de donn&eacute;es volumineux, bruyants ou complexes. Cette capacit&eacute; est particuli&egrave;rement bien adapt&eacute;e aux applications m&eacute;dicales, en particulier celles qui d&eacute;pendent de mesures prot&eacute;iques et g&eacute;nomiques complexes. En cons&eacute;quence, l'apprentissage automatique est fr&eacute;quemment utilis&eacute; dans le diagnostic et la d&eacute;tection du cancer. Plus r&eacute;cemment, l'apprentissage automatique a &eacute;t&eacute; appliqu&eacute; au domaine de l&rsquo;agriculture de pr&eacute;cision afin de r&eacute;pondre &agrave; une responsabilit&eacute; environnementale en plus de fournir une augmentation de rendement assez cons&eacute;quente. &nbsp;En cons&eacute;quence, la bio-informatique a non seulement approfondi les investigations biologiques, mais &eacute;galement ajout&eacute;es la dimension de la largeur. De cette mani&egrave;re, nous sommes en mesure d&rsquo;examiner en d&eacute;tail les syst&egrave;mes individuels et de les comparer avec ceux qui sont li&eacute;s afin de d&eacute;couvrir des principes communs s&rsquo;appliquant &agrave; de nombreux syst&egrave;mes et de mettre en &eacute;vidence des caract&eacute;ristiques inhabituelles propres &agrave; certains syst&egrave;mes.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Bibliographie</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p>Blackmore, S. (1994). Precision Farming: An Introduction. <em>Outlook on Agriculture, 23</em>(4), 275-280. doi:10.1177/003072709402300407</p>
+<p>Campbell, M., Hoane, A. J., &amp; Hsu, F.-h. (2002). Deep Blue. <em>Artificial Intelligence, 134</em>(1), 57-83. doi:<a href="https://doi.org/10.1016/S0004-3702(01)00129-1">https://doi.org/10.1016/S0004-3702(01)00129-1</a></p>
+<p>Chen, H., Engkvist, O., Wang, Y., Olivecrona, M., &amp; Blaschke, T. (2018). The rise of deep learning in drug discovery. <em>Drug Discovery Today, 23</em>(6), 1241-1250. doi:<a href="https://doi.org/10.1016/j.drudis.2018.01.039">https://doi.org/10.1016/j.drudis.2018.01.039</a></p>
+<p>Finch, H. J. S., Samuel, A. M., &amp; Lane, G. P. F. (2014). 10 - Precision farming. In H. J. S. Finch, A. M. Samuel, &amp; G. P. F. Lane (Eds.), <em>Lockhart &amp; Wiseman&rsquo;s Crop Husbandry Including Grassland (Ninth Edition)</em> (pp. 235-244): Woodhead Publishing.</p>
+<p>Guo, J., &amp; Li, B. (2018). <em>The Application of Medical Artificial Intelligence Technology in Rural Areas of Developing Countries</em> (Vol. 2).</p>
+<p>Jiang, F., Jiang, Y., Zhi, H., Dong, Y., Li, H., Ma, S., . . . Wang, Y. (2017). Artificial intelligence in healthcare: past, present and future. <em>Stroke and vascular neurology, 2</em>(4), 230-243. doi:10.1136/svn-2017-000101</p>
+<p>Larra&ntilde;aga, P., Calvo, B., Santana, R., Bielza, C., Galdiano, J., Inza, I., . . . Robles, V. (2006). Machine learning in bioinformatics. <em>Briefings in Bioinformatics, 7</em>(1), 86-112. doi:10.1093/bib/bbk007</p>
+<p>Lu, H., Li, Y., Chen, M., Kim, H., &amp; Serikawa, S. (2018). Brain Intelligence: Go beyond Artificial Intelligence. <em>Mobile Networks and Applications, 23</em>(2), 368-375. doi:10.1007/s11036-017-0932-8</p>
+<p>Murray-Rust, P. (1994). Bioinformatics and drug discovery. <em>Current Opinion in Biotechnology, 5</em>(6), 648-653. doi:<a href="https://doi.org/10.1016/0958-1669(94)90089-2">https://doi.org/10.1016/0958-1669(94)90089-2</a></p>
+<p>Ohlstein, E. H., Jr., R. R. R., &amp; Elliott, J. D. (2000). Drug Discovery in the Next Millennium. <em>Annual Review of Pharmacology and Toxicology, 40</em>(1), 177-191. doi:10.1146/annurev.pharmtox.40.1.177</p>
+<p>Sander, C. (2000). Genomic Medicine and the Future of Health Care. <em>Science, 287</em>(5460), 1977-1978. doi:10.1126/science.287.5460.1977</p>
+<p>Silver, D., Huang, A., Maddison, C. J., Guez, A., Sifre, L., van den Driessche, G., . . . Hassabis, D. (2016). Mastering the game of Go with deep neural networks and tree search. <em>Nature, 529</em>, 484. doi:10.1038/nature16961</p>
+<p><a href="https://www.nature.com/articles/nature16961#supplementary-information">https://www.nature.com/articles/nature16961#supplementary-information</a></p>
+<p>Singh, H., Meyer, A. N. D., &amp; Thomas, E. J. (2014). The frequency of diagnostic errors in outpatient care: estimations from three large observational studies involving US adult populations. <em>BMJ quality &amp; safety, 23</em>(9), 727-731. doi:10.1136/bmjqs-2013-002627</p>
+          </div>
         </div>
       </div>
     </div>
